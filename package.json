@@ -1,0 +1,16 @@
+{
+  "name": "font-subset-automation",
+  "version": "1.0.0",
+  "description": "自动化字体子集化处理系统",
+  "type": "module",
+  "scripts": {
+    "subset": "node font-subset.js",
+    "build": "npm run subset"
+  },
+  "dependencies": {
+    "fontmin": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": ".0.0"
+  }
+}

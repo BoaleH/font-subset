@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-11-13T08:20:09.366Z",
+  "characterCount": 1751,
+  "processedFiles": 3,
+  "averageReduction": "88.8%",
+  "details": [
+    {
+      "originalFile": "Alibaba-PuHuiTi-Regular.ttf",
+      "outputFile": "Alibaba-PuHuiTi-Regular.woff2",
+      "originalSize": 9724448,
+      "optimizedSize": 489140,
+      "reduction": "95.0"
+    },
+    {
+      "originalFile": "华康新综艺W7.TTF",
+      "outputFile": "华康新综艺W7.woff2",
+      "originalSize": 1611484,
+      "optimizedSize": 230752,
+      "reduction": "85.7"
+    },
+    {
+      "originalFile": "字魂20号.ttf",
+      "outputFile": "字魂20号.woff2",
+      "originalSize": 8894468,
+      "optimizedSize": 1284848,
+      "reduction": "85.6"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>子集化字体使用示例</title>
+    <style>
+      /* 定义子集化字体 */
+      @font-face {
+        font-family: "shitouti";
+        src: url("./fonts/output/fonts/source/字魂20号.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "huakang";
+        src: url("./fonts/output/fonts/source/华康新综艺W7.woff2")
+          format("woff2");
+      }
+
+      @font-face {
+        font-family: "alibaba";
+        src: url("./fonts/output/fonts/source/Alibaba-PuHuiTi-Regular.woff2")
+          format("woff2");
+      }
+
+      /* 使用子集化字体 */
+      .shitouti {
+        font-family: "shitouti";
+      }
+
+      .huakang {
+        font-family: "huakang";
+      }
+
+      .alibaba {
+        font-family: "alibaba";
+      }
+
+      body {
+        font-family: Arial;
+        line-height: 1.6;
+        padding: 20px;
+      }
+
+      .demo-section {
+        margin: 30px 0;
+        padding: 20px;
+        border-radius: 8px;
+        background: #f8f9fa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="demo-section">
+      <h1 class="shitouti">
+        这段文字使用了经过子集化优化的字体文件，文件体积更小，加载更快。
+      </h1>
+
+      <h1 class="huakang">
+        这段文字使用了经过子集化优化的字体文件，文件体积更小，加载更快。
+      </h1>
+
+      <h1 class="alibaba">
+        这段文字使用了经过子集化优化的字体文件，文件体积更小，加载更快。
+      </h1>
+
+      <p>这段文字使用系统默认字体作为对比。</p>
+    </div>
+  </body>
+</html>
