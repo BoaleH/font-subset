@@ -85,6 +85,11 @@ class FontSubsetProcessor {
 
   // 批量处理所有字体文件
   async processAllFonts() {
+    // 清空输出目录
+    if (fs.existsSync(this.config.targetDir)) {
+      fs.rmSync(this.config.targetDir, { recursive: true });
+    }
+
     console.log("开始字体子集化处理...");
 
     // 创建输出目录
