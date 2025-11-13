@@ -1,29 +1,29 @@
 {
-  "timestamp": "2025-11-13T09:40:01.390Z",
-  "characterCount": 181,
+  "timestamp": "2025-11-13T09:53:17.026Z",
+  "characterCount": 200,
   "processedFiles": 3,
-  "averageReduction": "99.2%",
+  "averageReduction": "99.1%",
   "details": [
     {
       "originalFile": "类型1字体.ttf",
       "outputFile": "类型1字体.woff2",
       "originalSize": 9724448,
-      "optimizedSize": 31040,
-      "reduction": "99.7"
+      "optimizedSize": 35352,
+      "reduction": "99.6"
     },
     {
       "originalFile": "类型2字体.ttf",
       "outputFile": "类型2字体.woff2",
       "originalSize": 8894468,
-      "optimizedSize": 84616,
-      "reduction": "99.0"
+      "optimizedSize": 97616,
+      "reduction": "98.9"
     },
     {
       "originalFile": "类型3字体.ttf",
       "outputFile": "类型3字体.woff2",
       "originalSize": 1611484,
-      "optimizedSize": 16356,
-      "reduction": "99.0"
+      "optimizedSize": 19288,
+      "reduction": "98.8"
     }
   ]
 }
